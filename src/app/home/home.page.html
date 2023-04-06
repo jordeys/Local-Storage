@@ -1,0 +1,28 @@
+<body>
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Testing - Add LocalStorage
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-content [fullscreen]="true">
+    <ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-title size="large">
+          Testing - Add LocalStorage
+        </ion-title>
+      </ion-toolbar>
+    </ion-header>
+    
+    <div id="container">
+      <ion-chip>{{recovertext}}</ion-chip>
+      <p></p>
+      <h1 color="primary">Ingresar una palabra</h1>
+      <br>
+      <input type="text" [(ngModel)]="receivetext">
+      <ion-button class="buton" (click)="print()" shape="round"color="success">guarda</ion-button>
+    </div>
+  </ion-content>
+  </body>

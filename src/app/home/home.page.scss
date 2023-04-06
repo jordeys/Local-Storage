@@ -1,0 +1,26 @@
+
+#container {
+  height: 100vh;
+  padding-top: 100px;
+  text-align: center;
+  left: 100%;
+  right: 100%;
+  top: 100%;
+  background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    color: darkorange;
+    font-size: 150% 
+}
+.buton{
+  text-align: center;
+  color: azure;
+  left: -4%;
+  right: 0%;
+  top: 5%;
+  transform: translateX(0%);
+}
+ion-chip {
+  background: cornflowerblue;
+  color: chocolate;
+  font-size: 120%;
+  height: 8%;
+}
